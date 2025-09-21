@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>EcoLearn</title>
+  <desc>EcoLearn leaf-in-globe emblem with eco gradient</desc>
+  <defs>
+    <linearGradient id="ecoGradient" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(12 12) rotate(90) scale(10)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.7" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect width="24" height="24" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <!-- Badge background -->
+    <rect width="24" height="24" rx="6" fill="url(#ecoGradient)"/>
+    <circle cx="12" cy="12" r="10" fill="url(#glow)"/>
+
+    <!-- Subtle globe meridians -->
+    <g opacity="0.18" stroke="#FFFFFF" stroke-width="0.8">
+      <circle cx="12" cy="12" r="6.5" fill="none"/>
+      <path d="M12 5.5c2.2 0 4 2.9 4 6.5s-1.8 6.5-4 6.5-4-2.9-4-6.5 1.8-6.5 4-6.5Z" fill="none"/>
+      <path d="M5.5 12h13"/>
+    </g>
+
+    <!-- Leaf mark -->
+    <g transform="translate(12 12)">
+      <!-- stem -->
+      <path d="M0 5.5c0-3.2 1.5-5.8 4.8-7.7" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- main leaf -->
+      <path d="M4.9-2.9C2.7-4.1 0.9-4.5-0.8-4.2c-2 .4-3.7 1.9-4.5 3.9-.8 2 .2 4.3 2 5.5 2.2 1.4 5.3.9 7.4-.9 1.6-1.4 2.5-3.4 2.8-5.3.1-.8-0.4-1.6-1.2-1.9Z" fill="#FFFFFF" fill-opacity="0.92"/>
+      <!-- vein -->
+      <path d="M-2.2 2c1.8-.9 3.2-2.2 4.4-4" stroke="#10B981" stroke-opacity="0.9" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Sparkles -->
+    <g fill="#FFFFFF" opacity="0.9">
+      <circle cx="18.2" cy="6.2" r="0.7"/>
+      <circle cx="6" cy="7.6" r="0.4"/>
+      <circle cx="17.2" cy="17.4" r="0.45"/>
+    </g>
+  </g>
+</svg>
